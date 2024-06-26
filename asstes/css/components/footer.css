@@ -1,0 +1,50 @@
+.footer-container{
+    background-color: #14274A;
+    max-width: 1900px;
+    max-height: 320px;
+    padding: 144px 186px 66px 185px;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-text{
+    color: #fff;
+}
+
+.footer-address-box{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.footer-address-text{
+    padding-top: 22px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hotel{
+    font-size: 9px;
+    padding-left: 20px;
+    letter-spacing:1ch;
+}
+
+.category-flex {
+    flex-direction: column;
+    padding-bottom: 10px;
+    list-style-type: none;
+    padding: 0;
+    min-width: 190px;
+    text-align: left;
+  }
+
+  .category-flex a{
+    color: #f7f7f7;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+  }

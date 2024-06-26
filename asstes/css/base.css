@@ -8,7 +8,9 @@ body{
  font-size: 18px;
  line-height: 1.2;
  color: #14274A;
-
+ font-family: 'Montserrat';
+ color: #14274A;
+ font-weight: 700;
 }
 
 h1,
@@ -33,4 +35,21 @@ h4,
 .h4{
 font-size: 36px;
 line-height: normal;
+padding-left: 250px;
+font-weight: 400;
+padding-bottom: 93px;
+padding-top: 63px;
+}
+
+h5,
+.h5{
+    font-size: 25px;
+    line-height: 40px;
+
+}
+
+.facilities-text{
+    font-weight: 400;
+    text-align: center;
+    padding-top: 34px;
 }

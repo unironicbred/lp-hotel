@@ -1,5 +1,5 @@
 .card-article{
- margin-bottom: 40px;
+ margin-bottom: 69px;
 }
 .card-article .row {
  display: flex;
@@ -7,7 +7,7 @@
 }
 
 .card-article .row .col-left {
- padding-right: 80px;
+ padding-right: 120px;
  border-left: 2px solid #000000;
  padding-left: 25px;
 }
@@ -19,3 +19,4 @@
 .card-article .row .col-left .btn-wrap {
  margin-top: 40px;
 }
+
