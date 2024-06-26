@@ -1,0 +1,30 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body{
+ font-size: 18px;
+ line-height: 1.2;
+ color: #14274A;
+
+}
+
+h1,
+.h1{
+font-size: 72px;
+}
+
+h2,
+.h2{
+font-size: 40px;
+}
+
+h3{
+
+}
+
+h4{
+
+}
