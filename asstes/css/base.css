@@ -13,19 +13,24 @@ body{
 
 h1,
 .h1{
-font-size: 60px;
-padding-bottom: 25px;
+font-size: 154px;
+line-height: normal;
 }
 
 h2,
 .h2{
-font-size: 40px;
+font-size: 80px;
+line-height: normal;
 }
 
-h3{
-
+h3,
+.h3{
+font-size: 60px;
+line-height: normal;
 }
 
-h4{
-
+h4,
+.h4{
+font-size: 36px;
+line-height: normal;
 }
