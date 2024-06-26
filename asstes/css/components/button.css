@@ -1,4 +1,4 @@
-.btn{
+.btn-primary{
     display: inline-flex;
     width: 236px;
     height: 63px;
@@ -6,8 +6,9 @@
     justify-content: center;
     background-color: #E0B973;
     border-radius: 10px;
-    margin-top: 30px;
     color: #FFF;
     font-size: 20px;
-    font-style: none;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }

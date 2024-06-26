@@ -1,36 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css">
-    <title>Luxury Hotel</title>
-  </head>
-  <body>
-    <script src="./asstes/js/main.js"></script>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Luxury Hotel</title>
+</head>
 
-    <section class="card-container">
-      <div class="card">
-          <svg width="3" height="335" viewBox="0 0 3 335" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.5 0.5V334.5" stroke="#14274A" stroke-width="2"/>
-            </svg> 
-          <div class="card-text">
-            <h3>Luxury redefined</h3>
-              <p>Our rooms are designed to transport<br> you into an environment made for leisure.<br> Take your mind off the day-to-day of home<br> life and find a private paradise for yourself.</p>
+<body>
+  <section class="block-components">
+    <div class="container">
+      <h4>All components are listed below:-</h4>
+      <hr style="margin: 20px 0;">
 
-            <a href="#" class="btn">EXPLORE</a>
-          </div>
-          <img src="/asstes/images/steven-ungermann-aRT5UCf2MYY-unsplash.png" alt="bedroom">    
+      <div style="margin-bottom: 15px;">
+        <em>Button Primary</em>
       </div>
-      
-  </section>
+      <a href="#" class="btn-primary">Book Now</a>
+      <hr style="margin: 20px 0;">
 
-  </body>
+      <div style="margin-bottom: 15px;">
+        <em>Card Article</em>
+      </div>
+      <article class="card-article">
+        <div class="row">
+          <div class="col-left">
+            <h3>Luxury redefined</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolore quam praesentium exercitationem
+              suscipit, amet ullam delectus cum laborum debitis vero ex beatae iusto nisi fuga. Nisi exercitationem
+              cumque commodi.</p>
+            <div class="btn-wrap">
+              <a href="#" class="btn-primary">EXPLORE</a>
+            </div>
+          </div>
+          <div class="col-right">
+            <img src="./asstes/images/steven-ungermann-aRT5UCf2MYY-unsplash.png" alt="Alt text here">
+          </div>
+        </div>
+      </article>
+      <article class="card-article">
+        <div class="row">
+          <div class="col-left">
+            <h3>Luxury redefined</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolore quam praesentium exercitationem
+              suscipit, amet ullam delectus cum laborum debitis vero ex beatae iusto nisi fuga. Nisi exercitationem
+              cumque commodi.</p>
+            <div class="btn-wrap">
+              <a href="#" class="btn-primary">EXPLORE</a>
+            </div>
+          </div>
+          <div class="col-right">
+            <img src="./asstes/images/steven-ungermann-aRT5UCf2MYY-unsplash.png" alt="Alt text here">
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <script src="./asstes/js/main.js"></script>
+</body>
+
 </html>
