@@ -53,3 +53,31 @@ h5,
     text-align: center;
     padding-top: 34px;
 }
+
+.here-for-you{
+    font-weight: 400;
+    color: #14274A;
+    font-size: 30px;
+    padding: 10px;
+    padding-bottom: 167px;
+
+}
+
+.here-text{
+    padding-top: 261px;
+}
+
+.contact-text{
+    font-size: 40px;
+    font-weight: 400;
+    color: #14274A;
+    padding-bottom: 921px;
+}
+
+.map{
+    padding-top: 28px;
+    padding-bottom: 54px;
+    text-decoration: none; 
+    color: #14274A; 
+    font-weight: 700; 
+}

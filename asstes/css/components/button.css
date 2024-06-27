@@ -12,3 +12,25 @@
     border: none;
     cursor: pointer;
 }
+
+.btn-circle{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0B973;
+    border-radius: 30px;
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+    font-size: 48px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-text{
+    margin-right: 530px;
+    color: #14274A;
+    cursor: pointer;
+}
