@@ -30,16 +30,25 @@
 .contact-article{
     margin-bottom: 69px;
    }
-   .contact-article .contact-row {
+
+.contact-article .contact-row {
     display: flex;
     align-items: center;
    }
    
    
-   .contaact-article .contact-row .contact-col-left h3 {
+.contaact-article .contact-row .contact-col-left h3 {
     margin-bottom: 30px;
    }
    
-   .contact-article .contact-row .contact-col-left .btn-wrap {
+.contact-article .contact-row .contact-col-left .btn-wrap {
     margin-top: 40px;
+   }
+
+   .contact-col-left{
+    padding-right: 150px;
+   }
+
+   .contact-col-right{
+    padding-bottom: 550px;
    }

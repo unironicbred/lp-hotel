@@ -18,7 +18,7 @@
         </div>
 
         <article class="container contact-article">
-            <div class="contact=row">
+            <div class="contact-row">
               <div class="contact-col-left">
                 <div class="contact-text">497 Evergreen Rd. Roseville,<br> 
                     CA 95673
@@ -28,7 +28,15 @@
                 </div>
               </div>
               <div class="contact-col-right">
-                <div class="table">
+                <form action="/action_page.php">
+                    <label for="fname">Name</label><br>
+                    <input type="text" id="fname" name="firstname"><br>
+                    <label for="country">Email Address</label><br>
+                    <input type="text" id="femail" name="emailaddress"><br>
+                    <label for="subject">Subject</label><br>
+                    <textarea id="Message" name="Message" style="height:352px"></textarea><br>
+                    <input type="submit" value="Submit"><br>
+                  </form>
 
                 </div>
               </div>
@@ -47,8 +55,8 @@
               luxury_hotels@gmail.com</p>
           </div>
           <ul class="category-flex">
-            <li><p><a href="#about">About</a></li></p>
-            <li><p><a href="#careers">Contact</a></li></p>
+            <li><p><a href="index.html">About</a></li></p>
+            <li><p><a href="contact.html">Contact</a></li></p>
             <li><p><a href="#careers">Terms & Conditions</a></li></p>
         </ul>
     
