@@ -81,8 +81,14 @@
 .nav-a{
     float: right;
     color: #14274A;
-    margin-right: 100px ;
+    margin-right: 85px ;
     text-decoration: none;
-    padding-top: 60px;
+    margin-top: 35px;
+    padding: 15px;
     margin-bottom: 991px;
+}
+
+.nav-a:hover{
+    background-color: #14274A;
+    color: #fff;
 }
